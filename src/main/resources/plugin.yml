@@ -1,0 +1,17 @@
+api-version: '1.14'
+name: Agronault-Utils
+version: 1.4
+author: agronault
+
+main: com.agronault.testeplugin.testepluginPL
+
+depend:
+  - ProtocolLib
+
+commands:
+    agro:
+        usage: /<command>
+        description: envia informações básicas sobre o plugin
+    kit:
+        usage: /<command>
+        description: selecione seu kit
